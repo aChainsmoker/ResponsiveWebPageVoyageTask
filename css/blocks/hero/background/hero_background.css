@@ -1,0 +1,23 @@
+﻿.hero__bg{
+    position: absolute;
+    z-index: 0;
+    top: 0;
+
+    width: 100%;
+    height: 647px;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 1337.3px){
+    .hero__bg{
+        height: 600px;
+    }
+}
+
+@media (max-width: 855.5px){
+    .hero__bg{
+        height: 583px;
+    }
+}

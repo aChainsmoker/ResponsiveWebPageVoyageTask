@@ -1,0 +1,25 @@
+﻿.menu-btn{
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: center;
+
+    margin-left: 5.29%;
+    padding: 0;
+
+    cursor: pointer;
+
+    border: none;
+    background: none;
+}
+
+.menu-btn__icon{
+    width: 22px;
+    height: 16px;
+}
+
+@media (max-width: 855.5px){
+    .menu-btn{
+        margin-left: 0;
+    }
+}

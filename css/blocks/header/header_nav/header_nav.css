@@ -1,0 +1,80 @@
+﻿.header-controls{
+    display: flex;
+    align-items: center;
+
+    margin-left: 47.6%;
+    padding-top: 5px;
+
+    white-space: nowrap;
+
+    gap: 11%;
+}
+
+.header-controls__dropdown{
+    font-size: 17px;
+
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+    letter-spacing: -1px;
+
+    color: var(--color-dark-blue);
+
+    gap: 6px;
+}
+
+.header-controls__icon{
+    width: 10px;
+    height: 12px;
+}
+
+.header-controls__arrow{
+    display: inline-block;
+
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+
+    border-top: 5px solid var(--color-dark-blue);
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.header-controls__phone{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-left: -2%;
+}
+
+.header-controls__phone-number{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+
+    letter-spacing: -1px;
+
+    color: var(--color-dark-blue);
+}
+
+.header-controls__phone-label{
+    font-size: 11px;
+    line-height: 1.2;
+
+    color: var(--color-dark-blue);
+}
+
+@media (max-width: 1337.3px){
+    .header-controls{
+        margin-left: 23.6%;
+    }
+}
+
+
+@media (max-width: 855.5px){
+    .header-controls{
+        display: none;
+    }
+}

@@ -1,0 +1,40 @@
+﻿.btn{
+    font-family: var(--font-regular);
+    font-size: 15px;
+    font-weight: 500;
+
+    display: inline-block;
+
+    margin-bottom: 15px;
+    padding: 15px 48px;
+
+    cursor: pointer;
+
+    color: var(--color-white);
+    border: none;
+    background-color: var(--color-blue);
+}
+
+.btn--more{
+    font-size: 15px;
+
+    padding: 15px 36px;
+
+    cursor: pointer;
+
+    color: var(--color-white);
+    border: none;
+    background-color: var(--color-blue);
+}
+
+@media (max-width: 1337.3px){
+    .btn{
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 855.5px){
+    .btn{
+        margin-bottom: 22px;
+    }
+}
