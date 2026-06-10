@@ -27,6 +27,7 @@
 .header-nav__icon{
     width: 10px;
     height: 12px;
+    color: var(--color-blue);
 }
 
 .header-nav__arrow{

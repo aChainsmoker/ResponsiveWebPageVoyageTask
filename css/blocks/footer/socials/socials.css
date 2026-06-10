@@ -37,10 +37,11 @@
     background-color: var(--color-dark-blue);
 }
 
-.socials__icon img{
+.socials__icon-item .socials__icon{
     display: block;
 
     width: 14px;
+    color: var(--color-white);
 }
 
 @media (max-width: 1337.3px){

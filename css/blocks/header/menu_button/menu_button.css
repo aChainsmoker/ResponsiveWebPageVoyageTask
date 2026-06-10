@@ -16,6 +16,7 @@
 .menu-button__icon{
     width: 22px;
     height: 16px;
+    color: var(--color-dark-blue);
 }
 
 @media (max-width: 855.5px){
