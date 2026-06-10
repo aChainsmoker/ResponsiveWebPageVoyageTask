@@ -132,8 +132,7 @@
     font-size: 32px;
     font-weight: 400;
 
-    margin-top: 6px;
-    margin-left: 2px;
+    margin: 6px 0 0 2px;
 
     color: var(--color-dark-blue);
 }
@@ -204,9 +203,7 @@
     }
     .card__content{
         margin-left: 3px;
-        padding-top: 24px;
-        padding-right: 0;
-        padding-left: 19px;
+        padding: 24px 0 0 19px;
     }
     .card__duration-value{
         margin-left: 5px;

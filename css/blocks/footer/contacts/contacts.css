@@ -3,8 +3,7 @@
     align-items: flex-start;
     flex-direction: column;
 
-    margin-top: .3%;
-    margin-left: 35.8%;
+    margin: 0.3% 0 0 35.8%;
 }
 
 .footer-contacts__phone{
