@@ -15,8 +15,8 @@
 
     display: none;
 
-    width: 420px;
-    height: 414px;
+    min-width: 420px;
+    min-height: 414px;
     padding: 66px 45px;
 
     text-align: left;
