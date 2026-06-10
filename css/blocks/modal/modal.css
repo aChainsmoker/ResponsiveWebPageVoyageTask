@@ -184,7 +184,7 @@
     color: var(--color-dark-blue);
 }
 
-.modal__btn{
+.modal__button{
     align-self: flex-start;
 
     margin-top: 10px;
@@ -219,7 +219,7 @@
         font-size: 26px;
     }
 
-    .modal__btn{
+    .modal__button{
         width: 100%;
 
         text-align: center;

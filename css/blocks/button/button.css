@@ -1,4 +1,4 @@
-﻿.btn{
+﻿.button{
     font-family: var(--font-regular);
     font-size: 15px;
     font-weight: 500;
@@ -15,7 +15,7 @@
     background-color: var(--color-blue);
 }
 
-.btn--more{
+.button--more{
     font-size: 15px;
 
     padding: 15px 36px;
@@ -28,13 +28,13 @@
 }
 
 @media (max-width: 1337.3px){
-    .btn{
+    .button{
         margin-bottom: 24px;
     }
 }
 
 @media (max-width: 855.5px){
-    .btn{
+    .button{
         margin-bottom: 22px;
     }
 }
