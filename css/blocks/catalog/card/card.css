@@ -146,7 +146,7 @@
 
     text-decoration: line-through;
 
-    color: #7a8f9f;
+    color: var(--color-old-price);
 }
 
 
