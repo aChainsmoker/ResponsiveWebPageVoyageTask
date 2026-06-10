@@ -98,6 +98,8 @@
     border-top: 4px solid transparent;
     border-bottom: 4px solid transparent;
     border-left: 5px solid var(--color-blue);
+
+    cursor: pointer;
 }
 
 .card__route, .card__duration{
