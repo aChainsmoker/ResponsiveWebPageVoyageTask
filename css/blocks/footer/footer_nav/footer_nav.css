@@ -1,0 +1,36 @@
+﻿.footer-nav {
+    margin-left: 5%;
+}
+
+.footer-nav__list {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    letter-spacing: .6px;
+}
+
+.footer-nav__link {
+    font-size: 14px;
+    line-height: 1.4;
+
+    text-decoration: none;
+
+    color: var(--color-dark-blue);
+}
+
+@media (max-width: 1337.3px) {
+    .footer-nav__list {
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 855.5px) {
+    .footer-nav {
+        display: none;
+    }
+}

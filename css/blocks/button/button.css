@@ -1,0 +1,38 @@
+﻿.button {
+    font-family: var(--font-regular);
+    font-size: 15px;
+    font-weight: 500;
+
+    display: inline-block;
+
+    margin-bottom: 15px;
+    padding: 15px 48px;
+
+    cursor: pointer;
+
+    color: var(--color-white);
+    border: none;
+    background-color: var(--color-blue);
+}
+
+.button--more {
+    padding: 15px 36px;
+
+    cursor: pointer;
+
+    color: var(--color-white);
+    border: none;
+    background-color: var(--color-blue);
+}
+
+@media (max-width: 1337.3px) {
+    .button {
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 855.5px) {
+    .button {
+        margin-bottom: 22px;
+    }
+}
