@@ -98,7 +98,7 @@
     .catalog__sort{
         margin: 0 0 29px 0;
     }
-    .card__route--width-80pr{
+    .card__route--width_narrow{
         width: 80%;
     }
 }
