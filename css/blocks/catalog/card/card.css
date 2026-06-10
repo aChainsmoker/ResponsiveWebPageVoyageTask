@@ -1,5 +1,4 @@
-
-.card{
+.card {
     display: flex;
     flex-direction: column;
 
@@ -10,17 +9,15 @@
     background-color: var(--color-white);
 }
 
-.card__image-wrapper{
+.card__image-wrapper {
     position: relative;
 }
 
-
-.card__image{
+.card__image {
     width: auto;
 }
 
-
-.card__tag{
+.card__tag {
     position: absolute;
     top: -7px;
     right: 48px;
@@ -28,7 +25,7 @@
     height: auto;
 }
 
-.card__tag-text{
+.card__tag-text {
     font-family: var(--font-regular);
     font-size: 14px;
     font-weight: 400;
@@ -41,22 +38,22 @@
     color: var(--color-white);
 }
 
-.card__tag-text--heat{
+.card__tag-text--heat {
     top: 30%;
     left: 14%;
 }
 
-.card__tag-text--promo{
+.card__tag-text--promo {
     top: 37%;
     left: 24%;
 }
 
-.card__tag-text--discount{
+.card__tag-text--discount {
     top: 30%;
     left: 18%;
 }
 
-.card__content{
+.card__content {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -64,7 +61,7 @@
     padding: 23px 36px;
 }
 
-.card__title{
+.card__title {
     font-family: var(--font-heading);
     font-size: 20px;
     font-weight: 700;
@@ -75,14 +72,13 @@
     letter-spacing: -.5px;
 }
 
-.card__link{
+.card__link {
     text-decoration: none;
 
     color: var(--color-blue);
 }
 
-
-.card__link::after{
+.card__link::after {
     position: relative;
     top: 1px;
 
@@ -93,16 +89,15 @@
     margin-left: 14px;
 
     content: '';
+    cursor: pointer;
     vertical-align: middle;
 
     border-top: 4px solid transparent;
     border-bottom: 4px solid transparent;
     border-left: 5px solid var(--color-blue);
-
-    cursor: pointer;
 }
 
-.card__route, .card__duration{
+.card__route, .card__duration {
     font-size: 14px;
     line-height: 1.75;
 
@@ -113,21 +108,21 @@
     color: var(--color-dark-blue);
 }
 
-.card__route-key, .card__duration-key{
+.card__route-key, .card__duration-key {
     font-weight: 600;
 }
 
-.card__route-value, .card__duration-value{
+.card__route-value, .card__duration-value {
     margin-left: 1px;
 }
 
-.card__price-wrapper{
+.card__price-wrapper {
     display: flex;
 
     gap: 37px;
 }
 
-.card__price{
+.card__price {
     font-family: var(--font-heading);
     font-size: 32px;
     font-weight: 400;
@@ -137,7 +132,7 @@
     color: var(--color-dark-blue);
 }
 
-.card__old-price{
+.card__old-price {
     font-family: var(--font-heading);
     font-size: 19px;
 
@@ -148,83 +143,81 @@
     color: var(--color-old-price);
 }
 
-
-@media (max-width: 1337.3px){
-    .card--hidden{
+@media (max-width: 1337.3px) {
+    .card--hidden {
         display: none;
     }
-    .card__price-wrapper{
+    .card__price-wrapper {
         gap: 17px;
     }
-    .card__tag{
+    .card__tag {
         right: 34px;
     }
-    .card__title--width_narrow{
+    .card__title--width_narrow {
         width: 58%;
     }
-    .card__title--width_medium{
+    .card__title--width_medium {
         width: 65%;
     }
-    .card__title--width_medium-more{
+    .card__title--width_medium-more {
         width: 70%;
     }
-    .card__content{
+    .card__content {
         padding: 23px 27px 23px 31px;
     }
-    .card__title{
+    .card__title {
         margin-bottom: 5px;
     }
-    .card__content--filled{
+    .card__content--filled {
         justify-content: space-between;
     }
-    .card__content--shifted-to-right{
+    .card__content--shifted-to-right {
         margin-left: 7px;
     }
-    .card__link::after{
+    .card__link::after {
         margin-left: 9px;
     }
-    .card__title--nowrap{
+    .card__title--nowrap {
         white-space: nowrap;
     }
-    .card__content--filled-with-bigger-gap{
+    .card__content--filled-with-bigger-gap {
         gap: 24px;
     }
 }
 
-
-@media (max-width: 855.5px){
-    .card__title--width_narrow{
+@media (max-width: 855.5px) {
+    .card__title--width_narrow {
         width: 60%;
     }
-    .card__title{
+    .card__title {
         line-height: 1;
 
         margin-bottom: 9px;
     }
-    .card__content{
+    .card__content {
         margin-left: 3px;
         padding: 24px 0 0 19px;
     }
-    .card__duration-value{
+    .card__duration-value {
         margin-left: 5px;
     }
-    .card__old-price{
+    .card__old-price {
         margin-top: 20px;
     }
-    .card__price-wrapper{
+    .card__price-wrapper {
         white-space: nowrap;
 
         gap: 12px;
     }
 
-    .card__duration-value{
+    .card__duration-value {
         margin-left: 3px;
     }
 
-    .catalog__grid{
+    .catalog__grid {
         margin-bottom: 29px;
     }
-    .card__tag{
+    .card__tag {
         right: 23px;
     }
 }

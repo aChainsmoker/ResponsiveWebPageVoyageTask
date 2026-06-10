@@ -1,4 +1,4 @@
-﻿.bg{
+﻿.bg {
     position: absolute;
     z-index: 0;
     top: 0;
@@ -10,14 +10,14 @@
     object-position: center;
 }
 
-@media (max-width: 1337.3px){
-    .bg{
+@media (max-width: 1337.3px) {
+    .bg {
         height: 600px;
     }
 }
 
-@media (max-width: 855.5px){
-    .bg{
+@media (max-width: 855.5px) {
+    .bg {
         height: 583px;
     }
 }

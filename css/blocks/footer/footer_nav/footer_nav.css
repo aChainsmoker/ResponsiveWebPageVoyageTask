@@ -1,8 +1,8 @@
-﻿.footer-nav{
+﻿.footer-nav {
     margin-left: 5%;
 }
 
-.footer-nav__list{
+.footer-nav__list {
     display: flex;
     flex-direction: column;
 
@@ -14,7 +14,7 @@
     letter-spacing: .6px;
 }
 
-.footer-nav__link{
+.footer-nav__link {
     font-size: 14px;
     line-height: 1.4;
 
@@ -23,14 +23,14 @@
     color: var(--color-dark-blue);
 }
 
-@media (max-width: 1337.3px){
-    .footer-nav__list{
+@media (max-width: 1337.3px) {
+    .footer-nav__list {
         white-space: nowrap;
     }
 }
 
-@media (max-width: 855.5px){
-    .footer-nav{
+@media (max-width: 855.5px) {
+    .footer-nav {
         display: none;
     }
 }

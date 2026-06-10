@@ -1,21 +1,17 @@
-
-.hero{
+.hero {
     position: relative;
 
     width: 100%;
 }
 
-
-
-
-.hero__container{
+.hero__container {
     position: relative;
     z-index: 1;
 
     padding-top: 24px;
 }
 
-.hero__content{
+.hero__content {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -23,13 +19,13 @@
     text-align: center;
 }
 
-.hero__compass{
+.hero__compass {
     width: 88px;
     height: auto;
     margin-bottom: 10px;
 }
 
-.hero__subtitle{
+.hero__subtitle {
     font-family: var(--font-heading);
     font-size: 2.3vw;
     font-weight: 400;
@@ -40,7 +36,7 @@
     color: var(--color-dark-blue);
 }
 
-.hero__title{
+.hero__title {
     font-family: var(--font-heading);
     font-size: 5.93vw;
     font-weight: 700;
@@ -55,8 +51,7 @@
     color: var(--color-dark-blue);
 }
 
-
-.hero__path{
+.hero__path {
     position: relative;
     z-index: 1;
 
@@ -65,43 +60,40 @@
     margin-right: 15px;
 }
 
-
-
-@media (max-width: 1337.3px){
-    .hero__title{
+@media (max-width: 1337.3px) {
+    .hero__title {
         margin-bottom: .9vw;
 
         letter-spacing: -7px;
     }
-    .hero__container{
+    .hero__container {
         padding-top: 82px;
     }
-    .hero__compass{
+    .hero__compass {
         width: 70px;
     }
-    .hero__subtitle{
+    .hero__subtitle {
         font-size: 2.14vw;
 
         margin-bottom: 4px;
     }
-    .hero__path{
+    .hero__path {
         height: 222px;
         margin-right: 24px;
     }
 }
 
-
-@media (max-width: 855.5px){
-    .hero__container{
+@media (max-width: 855.5px) {
+    .hero__container {
         margin-top: -14px;
         padding-top: 0;
     }
-    .hero__subtitle{
+    .hero__subtitle {
         font-size: 6.8vw;
 
         margin-bottom: 16px;
     }
-    .hero__title{
+    .hero__title {
         font-size: 15vw;
 
         margin-bottom: 12.7vw;

@@ -1,12 +1,8 @@
-﻿
-
-
-.modal-checkbox{
+﻿.modal-checkbox {
     display: none;
 }
 
-
-.modal-overlay{
+.modal-overlay {
     position: fixed;
     z-index: 3;
     top: 0;
@@ -25,13 +21,11 @@
     background-color: rgba(0, 0, 0, .6);
 }
 
-
-.modal-checkbox:checked ~ .modal-overlay{
+.modal-checkbox:checked ~ .modal-overlay {
     display: flex;
 }
 
-
-.modal{
+.modal {
     position: relative;
 
     overflow-y: auto;
@@ -44,7 +38,7 @@
     background-color: var(--color-white);
 }
 
-.modal__time-and-place{
+.modal__time-and-place {
     display: flex;
     flex-direction: column;
 
@@ -53,8 +47,7 @@
     gap: 2px;
 }
 
-
-.modal__close{
+.modal__close {
     position: absolute;
     top: 14px;
     right: 25px;
@@ -70,16 +63,13 @@
     color: var(--color-dark-gray);
 }
 
-
-
-.modal__content{
+.modal__content {
     display: flex;
 
     gap: 32px;
 }
 
-
-.modal__images{
+.modal__images {
     display: flex;
     flex: 0 0 45.3%;
     flex-direction: column;
@@ -87,31 +77,28 @@
     gap: 7px;
 }
 
-.modal__main-image{
+.modal__main-image {
     width: 100%;
 }
 
-.modal__thumbnails{
+.modal__thumbnails {
     display: flex;
 
     gap: 10px;
 }
 
-.modal__thumbnail{
+.modal__thumbnail {
     width: 24%;
 }
 
-
-
-
-.modal__info{
+.modal__info {
     display: flex;
     flex-direction: column;
 
     margin-top: -5px;
 }
 
-.modal__title{
+.modal__title {
     font-family: var(--font-heading);
     font-size: 19px;
     font-weight: 700;
@@ -122,11 +109,11 @@
     color: var(--color-blue);
 }
 
-.modal__schedule-title{
+.modal__schedule-title {
     margin: 0;
 }
 
-.modal__route, .modal__duration{
+.modal__route, .modal__duration {
     font-size: 15px;
     line-height: 1.5;
 
@@ -135,18 +122,18 @@
     color: var(--color-dark-blue);
 }
 
-.modal__route strong, .modal__duration strong{
+.modal__route strong, .modal__duration strong {
     font-weight: 600;
 }
 
-.modal__schedule{
+.modal__schedule {
     display: flex;
     flex-direction: column;
 
     gap: 0;
 }
 
-.modal__schedule-content{
+.modal__schedule-content {
     font-size: 16px;
     line-height: 1;
 
@@ -160,20 +147,18 @@
     gap: 0;
 }
 
-
-.modal__schedule-content p{
+.modal__schedule-content p {
     line-height: 1.5;
 
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.modal__schedule-content-paragraph-width_narrow{
+.modal__schedule-content-paragraph-width_narrow {
     width: 88%;
 }
 
-
-.modal__price{
+.modal__price {
     font-family: var(--font-heading);
     font-size: 32px;
     font-weight: 700;
@@ -183,42 +168,39 @@
     color: var(--color-dark-blue);
 }
 
-.modal__button{
+.modal__button {
     align-self: flex-start;
 
     margin-top: 10px;
 }
 
-
-
-@media (max-width: 855.5px){
-    .modal-overlay{
+@media (max-width: 855.5px) {
+    .modal-overlay {
         overflow-y: auto;
         align-items: flex-start;
 
         padding: 10px;
     }
 
-    .modal{
+    .modal {
         padding: 50px 40px;
     }
 
-    .modal__content{
+    .modal__content {
         flex-direction: column;
 
         gap: 25px;
     }
 
-
-    .modal__title{
+    .modal__title {
         font-size: 20px;
     }
 
-    .modal__price{
+    .modal__price {
         font-size: 26px;
     }
 
-    .modal__button{
+    .modal__button {
         width: 100%;
 
         text-align: center;

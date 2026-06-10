@@ -1,4 +1,4 @@
-﻿.menu-button{
+﻿.menu-button {
     display: flex;
     align-items: center;
     flex-shrink: 0;
@@ -13,14 +13,15 @@
     background: none;
 }
 
-.menu-button__icon{
+.menu-button__icon {
     width: 22px;
     height: 16px;
+
     color: var(--color-dark-blue);
 }
 
-@media (max-width: 855.5px){
-    .menu-button{
+@media (max-width: 855.5px) {
+    .menu-button {
         margin-left: 0;
     }
 }
