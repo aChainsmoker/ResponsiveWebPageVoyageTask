@@ -1,4 +1,4 @@
-﻿.hero__bg{
+﻿.bg{
     position: absolute;
     z-index: 0;
     top: 0;
@@ -11,13 +11,13 @@
 }
 
 @media (max-width: 1337.3px){
-    .hero__bg{
+    .bg{
         height: 600px;
     }
 }
 
 @media (max-width: 855.5px){
-    .hero__bg{
+    .bg{
         height: 583px;
     }
 }
